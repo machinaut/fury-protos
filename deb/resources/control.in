@@ -1,0 +1,10 @@
+Package: fury-protos
+Version: __VERSION__
+Depends: grpc, protobuf
+Recommends: lsb-release
+Section: devel
+Priority: optional
+Architecture: amd64
+Installed-Size: __FILESIZE__
+Maintainer: Alex Ray <a@machinaut.com>
+Description: Prebuilt shared protos C++ library

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service Incrementer {
+    rpc Increment (Input) returns (Reply) {}
+}
+
+message Input {
+    int32 value = 1;
+}
+
+message Reply {
+    int32 result = 1;
+}

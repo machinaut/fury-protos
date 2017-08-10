@@ -1,0 +1,6 @@
+syntax = "proto3";
+import "fury_protos/increment.proto";
+
+service Decrementer {
+    rpc Decrement (Input) returns (Reply) {}
+}

@@ -1,0 +1,3 @@
+recursive-include fury_protos *.py
+include VERSION
+include setup.py

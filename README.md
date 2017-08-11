@@ -41,5 +41,4 @@ which aren't up to date in the standard ubuntu repositories.
 I solved this by building and uploading my own, also on Gemfury:
 https://gemfury.com/machinaut
 
-I'll upload the code for building these soon.
-(Though my packages are public, I'm not making promises to maintain them!)
+Code for these packages is here [fury-debs](https://github.com/machinaut/fury-debs)
